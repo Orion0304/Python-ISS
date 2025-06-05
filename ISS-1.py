@@ -59,7 +59,7 @@ plt.text(lon + 1, lat +2, 'ISS',
          transform=ccrs.Geodetic())
 
 
-#Ce qui suit en censé récupérer la prochaine date à laquelle l'ISS passe au-dessus d'un point donné, mais l'API n'existe plus aujourd'hui.
+#Ce qui suit récupérait la prochaine date à laquelle l'ISS passe au-dessus d'un point donné, mais l'API n'existe plus aujourd'hui.
 '''url = 'http://api.open-notify.org/iss-pass.json'
 url = url + '?lat=' + str(lat) + '&lon=' + str(lon)
 print(url)
